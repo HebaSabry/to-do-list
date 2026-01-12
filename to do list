@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>هبة الله صبري</h1>
+    <p>Front-End Developer | Freelancer</p>
+  </header>  
+
+<section class="about">
+  <h2>About Me</h2>
+  <p>I'm a passionate Front-End Developer with experience in creating responsive and user-friendly websites.</p>
+</section>
+<section class="contact">
+    <h2>Contact Me</h2>
+    <ul>
+        <li>
+        <a href="mailto:hebasabryeldwaik@gmail.com"> Email</a>
+    </li>
+    <li><a href="https://github.com/HebaSabry" target="_blank"> GitHub</a></li>
+
+    <li> <a href="https://wa.me/01065639112" target="_blank"> WhatsApp</a></li>
+    </ul>
+    
+</section>body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 50px 20px;
+}
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+a{
+    text-decoration: none;
+    color: #4CAF50;
+    margin: 0 10px
+}
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+<footer>
+    <p>&copy; 2025 Hebat Allah Sabry. All rights reserved.</p>
+</footer>
+    <script src="main.js"></script>
+</body>
+</html>
