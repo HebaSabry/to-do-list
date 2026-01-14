@@ -28,3 +28,5 @@ window.onload =function(){
     savedTasks.forEach(taskText =>createTask(taskText));
 }
  
+function clearTasks(){localStorage.removeItem("tasks");
+     document.getElementById("taskList").innerHTML ="";}
